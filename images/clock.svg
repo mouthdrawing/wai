@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="1300" height="1800">
+
+<defs>
+
+  <style>
+
+    <![CDATA[
+      .def {
+        stroke: black;
+        fill: transparent
+      }
+
+      .line {
+        stroke-width: 3
+      }
+
+      .copyright {
+        stroke-width: 2
+      }
+    ]]>
+
+  </style>
+
+  <g id="obj" stroke="black" fill="none" stroke-width="3">
+
+    <rect width="700" height="700" rx="50" />
+
+    <path d="M350 50 V90
+            M610 350 H650
+            M350 610 V650
+            M50 350 H90" />
+
+  </g>
+
+  <g id="flower" stroke="black" fill="none" stroke-width="3">
+
+    <path d="M10 0 Q0 30 10 30 T10 0 Z
+            M10 30 Q16 200 10 300
+            M0 80 Q10 120 13 170
+            M20 100 Q20 130 13 210" />
+
+  </g>
+
+  <g id="copyright" stroke="black" fill="none" stroke-width="2">
+
+    <path d="M2 1 C50 15 -33 40 23 34
+            M36 4 C34 6 17 35 38 34
+            C54 35 47 -10 36 4 Z
+            M65 1 Q60 7 60 35
+            M97 9 C97 -7 64 5 85 15
+            Q97 20 97 9
+            Q95 30 97 35
+            M124 2 C145 -5 145 11 124 12
+            M134 10 Q140 10 145 14
+            M123 19 C140 15 157 21 137 28
+            M127 24 C130 37 130 36 145 33" />
+  </g>
+
+</defs>
+
+  <use xlink:href="#obj" x="300" y="550" />
+
+  <use xlink:href="#flower" x="640" y="750" />
+
+  <use xlink:href="#copyright" x="1050" y="1500" />
+
+</svg>
