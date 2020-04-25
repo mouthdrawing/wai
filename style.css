@@ -13,27 +13,29 @@ body {
   align-items: center;
 }
 
-.book__cover,
+.cover__container,
 .page__inner {
   width: 728.504px;
   height: 481.89px;
   display: flex;
 }
 
-.book__cover {
+.cover__container {
+  display: flex;
   flex-direction: column;
 }
 
 .book__title,
 .book__author {
-  padding-left: 100px;
+  margin-left: 100px;
 }
 
 .book__title {
-  margin-top: 100px;
+  margin-top: 150px;
   margin-bottom: 200px;
   font-size: 2.5em;
 }
+
 .page__inner {
   justify-content: space-between;
 }
